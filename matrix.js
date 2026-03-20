@@ -12,16 +12,17 @@ if (isNaN(idade)) {
     if (idade >= 18) {
         alert(`🟢 ACESSO LIBERADO, ${nome.toUpperCase()}!`);
         alert("💊 Você escolheu a pílula vermelha...");
+        
         console.log("Bem-vindo à realidade.");
+        console.log(`👤 Usuário: ${nome}`);
+        console.log(`🎂 Idade: ${idade}`);
+        console.log("🖥️ Status: Conectado à Matrix");
+        console.log("Wake up, Neo...");
+        console.log("The Matrix has you...");
+        
     } else {
         alert(`🔴 ACESSO NEGADO, ${nome.toUpperCase()}!`);
-        alert("💊 Você escolheu a pílula azul...");
-        console.log("Voltando para a ilusão...");
+        
+        console.log("ACESSO NEGADO");
     }
 }
-
-console.log(`👤 Usuário: ${nome}`);
-console.log(`🎂 Idade: ${idade}`);
-console.log("🖥️ Status: Conectado à Matrix");
-console.log("Wake up, Neo...");
-console.log("The Matrix has you...");
